@@ -1,0 +1,340 @@
+#body{
+    background-image: url(../imagenes/admisiones.jpg);
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    /* Elimina el margen por defecto */
+}
+
+#body::after {
+    content: ""; /* Contenido vacío necesario para la pseudo-clase */
+    background-image: url(../imagenes/admisiones.jpg); /* Establece la imagen de fondo */
+    background-size: cover; /* La imagen se ajusta para cubrir todo el tamaño del cuerpo */
+    background-position: center; /* La imagen se centra horizontal y verticalmente */
+    width: 100%; /* Ancho al 100% */
+    height: 108%; /* Alto al 100% */
+    position: absolute; /* Posiciona la capa superpuesta con respecto al cuerpo */
+    top: 0; /* Alinea la capa superpuesta en la parte superior */
+    left: 0; /* Alinea la capa superpuesta en la parte izquierda */
+    z-index: -1; /* Asegura que la capa superpuesta esté detrás del contenido */
+    filter: blur(3px); /* Aplica un filtro de desenfoque a la imagen de fondo */
+}
+
+
+*{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+.form{
+    
+    width: 600px;
+    border: 2px solid black;
+    padding: 2rem;
+    background-color: #003B70;
+    border: none;
+    border-radius: 20px; 
+    color: aliceblue;
+
+}
+
+h2{
+    text-align: center;
+    margin:0 auto !important;
+    display: block;
+    border: 2px solid white;
+    width: 90%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.label{
+    color: aliceblue;
+    font-size: 18px;
+    padding: 10px;
+    font-weight: 300;
+}
+
+.input{
+    display: block;
+    border: 2px solid black;
+    width: 95%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.button{
+    float: right;
+    background-color: #00f1dc;
+    padding: .5rem;
+    color: white;
+    border: none;
+    width: 50%;
+    border-radius: 5px;
+    margin-right: 10px;
+    text-decoration: none;
+    
+}
+
+button:hover{
+    background-color: white;
+    color: black;
+}
+
+a{
+    /*float: right;*/
+    padding: .5rem;
+    text-decoration: none;
+}
+
+a.hover{
+    color:white;
+}
+
+img {
+   
+    height: auto; /* Altura automática para mantener la proporción */
+    margin: 0 auto; /* Centrar horizontalmente */
+    display: block; /* Para evitar espacio adicional */
+}
+
+#imagenUcaldas{
+    height: auto; /* Altura automática para mantener la proporción */
+    margin: 0 auto; /* Centrar horizontalmente */
+    display: block; /* Para evitar espacio adicional */
+    width: 300px; /* Ancho deseado */
+    filter: brightness(50);
+}
+
+#imagenLogo{
+    width: 100px; /* Ancho deseado */
+    text-align: center;
+}
+
+.error{
+    background-color: rgb(175, 74, 74);
+    color: black;
+    padding: 10px;
+    width: 95%;
+    border-radius: 5px;
+    margin: 20px auto;
+}
+
+.estilo_h3{
+    text-align: center;
+    display: block;
+    border: 2px solid black;
+    padding: 10px 0;
+    margin-top: 2rem;
+    border-radius: 10px;
+}
+
+.btnRegistrar{
+    background-color: #08d9dd; /* Color de fondo */
+    color: rgb(0, 0, 0); /* Color de texto */
+    border: 2px solid #08d9dd; /* Borde sólido */
+    border-radius: 5px; /* Bordes redondeados */
+    display: inline-block; /* Para que el botón ocupe solo el espacio necesario */
+    font-size: 16px; /* Tamaño de fuente */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    transition: background-color 0.3s, color 0.3s; 
+}
+
+/*.btn-danger{
+    text-align: center;
+    background-color: black;
+  
+
+
+}*/
+
+.botones {
+    display:  ruby-text;
+    justify-content: space-between;
+    align-items: center;
+  
+    
+}
+
+#tipo_documento{
+    display: block;
+    border: 2px solid black;
+    width: 95%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+
+}
+
+#Rol{
+    display: block;
+    border: 2px solid black;
+    width: 95%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+#rol{
+    display: block;
+    border: 2px solid black;
+    width: 95%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.btn-image {
+    background-image: url('../imagenes/flecha-izquierda.png');
+    background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el botón */
+    width: 50px; /* Ajusta el ancho de la imagen */
+    height: 50px; /* Ajusta la altura de la imagen */
+    display: inline-block; /* Necesario para que el botón tenga dimensiones */
+    border: none; /* Elimina el borde del botón */
+}
+
+.btn-image:hover {
+    opacity: 0.8; /* Cambia la opacidad al pasar el ratón por encima */
+}
+
+/* Estilos adicionales para el botón de registro */
+.btnRegistrar {
+    /* Tus estilos adicionales para el botón de registro */
+}
+
+
+#bodyCrearcuenta{
+
+    background-color: #003B70;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+
+
+    
+}
+
+/* Style formulario estudiantes*/
+
+
+.Body1{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #003B70;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.sidebar_nav{
+    height: 100%;
+    height: 160%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: black;
+    overflow: hidden;
+    padding-top: 20px;
+}
+
+.sidebar_nav a{
+    padding: 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    display: block;
+    text-align: justify;
+}
+
+/*********profesrores*/
+
+/* Estilos generales */
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Estilos del encabezado */
+header {
+    background-color: #F3F4F6;
+    padding: 1rem;
+    border-bottom: 1px solid #D1D5DB;
+}
+
+header img {
+    width: 50px;
+    height: 50px;
+}
+
+/* Estilos del contenido principal */
+.grid {
+    margin-top: 2rem;
+}
+
+.bg-white {
+    background-color: #FFFFFF;
+}
+
+.bg-blue-100 {
+    background-color: #DBEAFE;
+}
+
+.p-4 {
+    padding: 1rem;
+}
+
+.rounded-lg {
+    border-radius: 0.5rem;
+}
+
+.shadow-md {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.text-zinc-700 {
+    color: #4B5563;
+}
+
+.dark:text-white {
+    color: #FFFFFF;
+}
+
+/* Estilos del select */
+select {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #D1D5DB;
+    border-radius: 0.25rem;
+    background-color: #FFFFFF;
+    color: #4B5563;
+}
+
+/* Estilos de las listas */
+ul {
+    list-style-type: disc;
+    margin-left: 1rem;
+}
+
+.hidden{
+    display: none;
+}
+
+/* Media query para pantallas medianas (tablets) */
+@media (min-width: 768px) {
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1rem;
+    }
+}

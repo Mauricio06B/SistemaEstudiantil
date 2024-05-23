@@ -1,0 +1,18 @@
+2024-05-05 22:02:26: <br />
+<b>Warning</b>:  Trying to access array offset on value of type int in <b>C:\xampp\htdocs\registroAsistencias\librerias\phpqrcode\qrsplit.php</b> on line <b>71</b><br />
+<br />
+<b>Warning</b>:  Trying to access array offset on value of type int in <b>C:\xampp\htdocs\registroAsistencias\librerias\phpqrcode\qrsplit.php</b> on line <b>53</b><br />
+<br />
+<b>Warning</b>:  Trying to access array offset on value of type int in <b>C:\xampp\htdocs\registroAsistencias\librerias\phpqrcode\qrsplit.php</b> on line <b>62</b><br />
+2024-05-05 22:07:38: <br />
+<b>Warning</b>:  Trying to access array offset on value of type int in <b>C:\xampp\htdocs\registroAsistencias\librerias\phpqrcode\qrsplit.php</b> on line <b>71</b><br />
+<br />
+<b>Warning</b>:  Trying to access array offset on value of type int in <b>C:\xampp\htdocs\registroAsistencias\librerias\phpqrcode\qrsplit.php</b> on line <b>53</b><br />
+<br />
+<b>Warning</b>:  Trying to access array offset on value of type int in <b>C:\xampp\htdocs\registroAsistencias\librerias\phpqrcode\qrsplit.php</b> on line <b>62</b><br />
+2024-05-05 22:08:05: <br />
+<b>Warning</b>:  Trying to access array offset on value of type int in <b>C:\xampp\htdocs\registroAsistencias\librerias\phpqrcode\qrsplit.php</b> on line <b>71</b><br />
+<br />
+<b>Warning</b>:  Trying to access array offset on value of type int in <b>C:\xampp\htdocs\registroAsistencias\librerias\phpqrcode\qrsplit.php</b> on line <b>53</b><br />
+<br />
+<b>Warning</b>:  Trying to access array offset on value of type int in <b>C:\xampp\htdocs\registroAsistencias\librerias\phpqrcode\qrsplit.php</b> on line <b>62</b><br />
